@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/mv-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.production.css">
+    <title>Matteo Visentin</title>
+</head>
+<body>
+    <header class="page-header">
+        <a href="./index.html"><img src="./img/mv-icon.png" alt="logo" class="page-header__item" id="page-header-logo"></a>
+        <nav class="main_navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation" class="navigation-list__item">
+                    <a href="./index.html" role="menuitem">Home</a>
+                </li>
+                <li role="presentation" class="navigation-list__item">
+                    <a href="./about.html" role="menuitem">About me</a>
+                </li>
+                <li role="presentation" class="navigation-list__item">
+                    <a href="./work.html" role="menuitem">Works</a>
+                </li>
+                <li role="presentation" class="navigation-list__item navigation-list__item--active">
+                    <a href="./contact.html" role="menuitem">Contact</a>
+                </li>
+            </ul> 
+        </nav>
+    </header>
+    <main class="main-contact">
+        <h1>Contact</h1>
+        <p>You can also send a message to <a href="mailto:visentinmatt@mail.com">visentinmatt[at]gmail.com</a> or call at <a href="tel:+4915730364870">Tel: +49(0)15730364870</a></p>
+        <br>
+        <form action="" method="post" id="contact-form" class="contact-form">
+            <label class="standard-lable" for="contact-name">Your Name*</label>
+            <input type="text" id="contact-name" placeholder="Full Name" required>
+            <label class="standard-lable" for="contact-email">E-mail*</label>
+            <input type="email" id="contact-email" placeholder="name@example.com" required>
+            <label class="standard-lable" for="contact-message">Message:</label>
+            <textarea id="contact-message" placeholder="Your message" required></textarea>
+            <br>
+            <input type="submit" value="Send message" class="submit-button">
+        </form>
+    </main>
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/mat.visentin/" target="_blank" rel="noreferrer"><img src="./img/icon-fb.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/visentinmatt/" target="_blank" rel="norefferer"><img src="./img/icon-ig.svg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/matteo-visentin-42874979/" target="_blank" rel="norefferer"><img src="./img/icon-in.svg" alt="Linkedin"></a>
+        </div>
+    </footer>
+    <script src="./js/tota11y.min.js"></script>
+</body>
+</html>
