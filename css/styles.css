@@ -148,8 +148,17 @@ table, tr {
     border-collapse: collapse;
     border: 1px solid var(--primary-text-color);
 }
+
 .table-skills {
     margin-right: 10px;
+}
+
+.table > th, tr, td {
+    padding: 5px 10px 5px 10px;
+}
+
+.table-skills__head {
+    padding: 5px 10px;
 }
 
 /* LINKS AND BUTTONS */
