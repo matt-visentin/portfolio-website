@@ -184,9 +184,10 @@ a:focus,
 }
 
 a:active,
-.navigation-list__item--active:active {
-    text-decoration: none;
-    font-weight: lighter;
+.navigation-list__item--active {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: var(--primary-color-lighter);
 }
 
 button,
