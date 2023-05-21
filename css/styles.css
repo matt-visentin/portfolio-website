@@ -10,8 +10,8 @@ Secondary color (Desaturated Acquamarine): #72a699;
 --primary-text-color: #000;
 --secondary-text-color: #fff;
 --bg: #fff;
---primary-color: #008362;
---primary-color-lighter: #00cf9c;
+--primary-color: #00694f;
+/* --primary-color-lighter: #009361; */
 --secondary-color: #d3d3d3;
 --thirdly-color: #f88379;
 }
@@ -45,6 +45,8 @@ h1 {
     width: auto;
     min-height: auto;
     margin: 0px;
+    padding-bottom: 10px;
+
 }
 
 .grid_item:last-child {
@@ -91,9 +93,7 @@ h1 {
 #page-header-logo {
     max-width: 57px;
 }
-/* #path2, #path1, #path3, #path4 {
-    fill:  var(--primary-color-lighter);
-} */
+
 /* INDEX */
 
 .profile-portrait {
@@ -173,11 +173,11 @@ a {
 
 a:visited,
 .navigation-list__item:visited {
-    color: var(--primary-color-lighter);
+    color: var(--primary-color);
 }
 
 .button:visited {
-    color: var(--primary-color-lighter);
+    color: var(--primary-color);
 }
 
 a:hover,
