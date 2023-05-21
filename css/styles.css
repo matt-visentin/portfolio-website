@@ -116,6 +116,7 @@ h1 {
 .main-index {
     height: 100%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .main-about,
@@ -141,6 +142,7 @@ h1 {
 .main-contact {
     margin: 0 auto;
     text-align: center;
+    margin-top: 100px;
 }
 
 /* TABLES */
@@ -333,6 +335,7 @@ textarea {
             margin: 0 auto;
             flex-direction: column;
             text-align: center;
+            margin-top: 100px;
         }
     }
 @keyframes color-change {
