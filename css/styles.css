@@ -10,9 +10,10 @@ Secondary color (Desaturated Acquamarine): #72a699;
 --primary-text-color: #000;
 --secondary-text-color: #fff;
 --bg: #fff;
---primary-color: #00694f;
+--primary-color: #008362;
 --primary-color-lighter: #00cf9c;
 --secondary-color: #d3d3d3;
+--thirdly-color: #f88379;
 }
 
 body {
@@ -124,6 +125,7 @@ h1 {
     flex-direction: column;
     text-align: center;
     padding-bottom: 83px;
+    margin-top: 20px;
 }
 
 .main-about,
@@ -189,7 +191,7 @@ a:active,
 .navigation-list__item--active {
     text-decoration: underline;
     font-weight: bolder;
-    color: var(--primary-color-lighter);
+    color: var(--thirdly-color);
 }
 
 button,
