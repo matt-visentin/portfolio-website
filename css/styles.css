@@ -90,7 +90,9 @@ h1 {
 #page-header-logo {
     max-width: 57px;
 }
-
+/* #path2, #path1, #path3, #path4 {
+    fill:  var(--primary-color-lighter);
+} */
 /* INDEX */
 
 .profile-portrait {
@@ -155,10 +157,6 @@ table, tr {
 
 .table > th, tr, td {
     padding: 5px 10px 5px 10px;
-}
-
-.table-skills__head {
-    padding: 5px 10px;
 }
 
 /* LINKS AND BUTTONS */
