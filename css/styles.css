@@ -325,16 +325,6 @@ textarea {
     .venice-skyline {
         max-height: 100%;
     }
-    .tables-about {
-        display: inline;
-        clear: left;
-    }
-    .table-skills {
-        margin-right: 0;
-    }
-    .table-language {
-        margin-top: 20px;
-    }
 }
 
 @media all and (max-width: 500px) {
@@ -358,7 +348,17 @@ textarea {
     .profile-text {
         clear: both;
     } 
+    .tables-about {
+        display: inline;
+        clear: left;
     }
+    .table-skills {
+        margin-right: 0;
+    }
+    .table-language {
+        margin-top: 20px;
+    }
+}
 @keyframes color-change {
     0% {
         fill: #789ebe;
