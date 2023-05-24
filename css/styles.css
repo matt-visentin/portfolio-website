@@ -172,8 +172,12 @@ table, tr {
     max-width: 800px;
 }
 
-.table > th, tr, td {
-    padding: 5px 10px 5px 10px;
+.table > tr, td {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
 }
 
 /* LINKS AND BUTTONS */
