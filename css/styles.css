@@ -348,6 +348,9 @@ textarea {
     .profile-text {
         clear: both;
     } 
+}
+
+@media all and (max-width: 550px) {
     .tables-about {
         display: inline;
         clear: left;
@@ -359,6 +362,7 @@ textarea {
         margin-top: 20px;
     }
 }
+
 @keyframes color-change {
     0% {
         fill: #789ebe;
