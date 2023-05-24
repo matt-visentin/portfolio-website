@@ -169,8 +169,12 @@ tr {
     max-width: 800px;
 }
 
-.table > th, tr, td {
-    padding: 5px 10px 5px 10px;
+.table > tr, td {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
 }
 
 /* LINKS AND BUTTONS */
@@ -276,6 +280,7 @@ button:focus,
 /* SVG VENICE SKYLINE */
 .venice-skyline {
     margin: 0 auto;
+    min-height: 250px;
     max-width: 100%;
 }
 
@@ -340,12 +345,6 @@ textarea {
         grid-column: auto / auto;
         grid-row: auto / auto;
     }
-    body {
-        font-size: 14px;
-    }
-    h1 {
-        font-size: 14px;
-    }
 }
 @media all and (max-width: 600px) {
     .grid {
@@ -358,11 +357,12 @@ textarea {
     }
 }
 
-@media all and (max-width: 360px) {
+/* @media all and (max-width: 360px) {
     .venice-skyline {
+        min-height: 200px;
         max-height: 100%;
     }
-}
+} */
 
 @media all and (max-width: 650px) {
     .profile-portrait{
@@ -390,7 +390,7 @@ textarea {
     }
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 600px) {
     .tables-about {
         display: inline;
         clear: left;
@@ -400,6 +400,16 @@ textarea {
     }
     .table-language {
         margin-top: 20px;
+    }
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 14px;
+    }
+    .venice-skyline {
+        min-height: 360px;
+        padding-bottom: 100px;
     }
 }
 
