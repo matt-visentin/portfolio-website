@@ -332,7 +332,7 @@ textarea {
     }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 650px) {
     .profile-portrait{
         clear: both;
         margin: 0 auto;
@@ -352,7 +352,10 @@ textarea {
         }
     .profile-text {
         clear: both;
-    } 
+    }
+    .profile-text > h1 {
+        margin-top: 5px;
+    }
 }
 
 @media all and (max-width: 550px) {
