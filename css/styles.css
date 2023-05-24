@@ -113,6 +113,11 @@ h1 {
     margin: 0 auto;
 }
 
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-index {
     height: 100%;
     margin: 0 auto;
@@ -350,6 +355,9 @@ textarea {
             text-align: center;
             margin-top: 100px;
         }
+    .profile-text {
+        clear: both;
+    } 
     }
 @keyframes color-change {
     0% {
