@@ -118,6 +118,10 @@ h1 {
     flex-direction: column;
 }
 
+.profile-text > h1 {
+    margin-top: 60px;
+}
+
 .main-index {
     height: 100%;
     margin: 0 auto;
@@ -244,6 +248,7 @@ button:focus,
 /* SVG VENICE SKYLINE */
 .venice-skyline {
     margin: 0 auto;
+    max-width: 500px;
 }
 
 .sky {
