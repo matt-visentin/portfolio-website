@@ -158,6 +158,10 @@ table, tr {
     margin-right: 10px;
 }
 
+.tables-about {
+    max-width: 800px;
+}
+
 .table > th, tr, td {
     padding: 5px 10px 5px 10px;
 }
@@ -210,6 +214,14 @@ button,
 .button,
 .submit-button {
     margin: 0 auto;
+}
+
+#button-download-cv {
+    margin-bottom: 20px;
+}
+
+#button-submit-message {
+    margin-top: 20px;
 }
 
 button:hover,
