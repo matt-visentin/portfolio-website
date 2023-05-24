@@ -2,8 +2,9 @@
 List of colours:
 Primary Text Color (Black): #000
 Secondary Text Color (White): #fff
-Primary Color (Aquamarine dark): #00694f;
-Secondary color (Desaturated Acquamarine): #72a699;
+Primary Color (Aquamarine): #00694f;
+Secondary Color (Gray): #d3d3d3;
+Decoration Color (Coral): #f88379;
 */
 
 body {
@@ -104,6 +105,15 @@ h1 {
     margin: 0 auto;
 }
 
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-text > h1 {
+    margin-top: 60px;
+}
+
 .main-index {
     height: 100%;
     margin: 0 auto;
@@ -153,6 +163,10 @@ tr {
 
 .table-skills {
     margin-right: 10px;
+}
+
+.tables-about {
+    max-width: 800px;
 }
 
 .table > th, tr, td {
@@ -239,6 +253,14 @@ button {
     margin: 0 auto;
 }
 
+#button-download-cv {
+    margin-bottom: 20px;
+}
+
+#button-submit-message {
+    margin-top: 20px;
+}
+
 button:hover,
 button:focus,
 .submit-button:hover,
@@ -254,6 +276,7 @@ button:focus,
 /* SVG VENICE SKYLINE */
 .venice-skyline {
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .sky {
@@ -262,10 +285,14 @@ button:focus,
 
 .bottom-wave {
     animation: 2s wave-movment linear infinite alternate;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .middle-wave {
     animation: 2s wave-movment 0.6s linear infinite alternate;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 /* CONTACT FORM */
@@ -335,19 +362,9 @@ textarea {
     .venice-skyline {
         max-height: 100%;
     }
-    .tables-about {
-        display: inline;
-        clear: left;
-    }
-    .table-skills {
-        margin-right: 0;
-    }
-    .table-language {
-        margin-top: 20px;
-    }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 650px) {
     .profile-portrait{
         clear: both;
         margin: 0 auto;
@@ -365,7 +382,27 @@ textarea {
             text-align: center;
             margin-top: 100px;
         }
+    .profile-text {
+        clear: both;
     }
+    .profile-text > h1 {
+        margin-top: 5px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .tables-about {
+        display: inline;
+        clear: left;
+    }
+    .table-skills {
+        margin-right: 0;
+    }
+    .table-language {
+        margin-top: 20px;
+    }
+}
+
 @keyframes color-change {
     0% {
         fill: #789ebe;
