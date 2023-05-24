@@ -313,12 +313,6 @@ textarea {
         grid-column: auto / auto;
         grid-row: auto / auto;
     }
-    body {
-        font-size: 14px;
-    }
-    h1 {
-        font-size: 14px;
-    }
 }
 @media all and (max-width: 600px) {
     .grid {
@@ -373,6 +367,12 @@ textarea {
     }
     .table-language {
         margin-top: 20px;
+    }
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 14px;
     }
 }
 
