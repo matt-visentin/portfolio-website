@@ -206,9 +206,10 @@ a:focus,
 
 a:active,
 .navigation-list__item--active {
-    text-decoration-style: solid;
-    font-weight: bolder;
-    text-decoration-color: var(--thirdly-color);
+    /* text-decoration-style: solid;
+    font-weight: bolder; */
+    border-bottom: 1px solid var(--thirdly-color);
+    color: var(--thirdly-color);
 }
 
 button,
