@@ -212,8 +212,7 @@ a:active {
 }
 
 .navigation-list__item--active {
-    /* text-decoration-style: solid;
-    font-weight: bolder; */
+    font-weight: bolder;
     border-bottom: 1px solid #f88379;
     color: #f88379;
 }
