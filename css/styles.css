@@ -254,6 +254,7 @@ button:focus,
     margin: 0 auto;
     min-height: 250px;
     max-width: 100%;
+    padding-bottom: 10px;
 }
 
 .sky {
@@ -263,13 +264,11 @@ button:focus,
 .bottom-wave {
     animation: 2s wave-movment linear infinite alternate;
     max-width: 100%;
-    overflow: hidden;
 }
 
 .middle-wave {
     animation: 2s wave-movment 0.6s linear infinite alternate;
     max-width: 100%;
-    overflow: hidden;
 }
 
 /* CONTACT FORM */
@@ -397,10 +396,10 @@ textarea {
     }
 }
 @keyframes wave-movment {
-    to {
+    from {
         transform: scaleX(1);
     }
-    from {
+    to {
         transform: scaleX(1.5);
     }
 }
