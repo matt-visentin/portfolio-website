@@ -205,15 +205,17 @@ a:focus,
 }
 
 a:active {
-    text-decoration-style: solid;
-    font-weight: bolder;
-    text-decoration-color: #f88379;
+    /* text-decoration-style: solid;
+    font-weight: bolder; */
+    border-bottom: 1px solid #f88379;
+    color: #f88379;
 }
 
 .navigation-list__item--active {
-    text-decoration-style: solid;
-    font-weight: bolder;
-    text-decoration-color: #f88379;
+    /* text-decoration-style: solid;
+    font-weight: bolder; */
+    border-bottom: 1px solid #f88379;
+    color: #f88379;
 }
 
 button {
