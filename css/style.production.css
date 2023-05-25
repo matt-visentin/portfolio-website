@@ -205,13 +205,13 @@ a:focus,
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration-style: solid;
     font-weight: bolder;
     text-decoration-color: #f88379;
 }
 
 .navigation-list__item--active {
-    text-decoration: underline;
+    text-decoration-style: solid;
     font-weight: bolder;
     text-decoration-color: #f88379;
 }

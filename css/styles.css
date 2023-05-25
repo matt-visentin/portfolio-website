@@ -168,9 +168,9 @@ table, tr {
     margin-right: 10px;
 }
 
-/* .tables-about {
+.tables-about {
     max-width: 800px;
-} */
+}
 
 .table > tr, td {
     padding: 10px;
