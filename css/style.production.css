@@ -24,6 +24,7 @@ h1 {
 }
 
 /*  GRID */
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -276,6 +277,7 @@ button:focus,
 }
 
 /* SVG VENICE SKYLINE */
+
 .venice-skyline {
     margin: 0 auto;
     max-width: 215px;
@@ -351,13 +353,6 @@ textarea {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-/* @media all and (max-width: 360px) {
-    .venice-skyline {
-        min-height: 200px;
-        max-height: 100%;
-    }
-} */
 
 @media all and (max-width: 650px) {
     .profile-portrait{
