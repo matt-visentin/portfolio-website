@@ -252,9 +252,7 @@ button:focus,
 /* SVG VENICE SKYLINE */
 .venice-skyline {
     margin: 0 auto;
-    min-height: 250px;
     max-width: 100%;
-    padding-bottom: 10px;
 }
 
 .sky {
