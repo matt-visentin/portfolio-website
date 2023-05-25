@@ -168,9 +168,9 @@ table, tr {
     margin-right: 10px;
 }
 
-.tables-about {
+/* .tables-about {
     max-width: 800px;
-}
+} */
 
 .table > tr, td {
     padding: 10px;
@@ -206,7 +206,7 @@ a:focus,
 
 a:active,
 .navigation-list__item--active {
-    text-decoration: underline;
+    text-decoration-style: solid;
     font-weight: bolder;
     text-decoration-color: var(--thirdly-color);
 }
