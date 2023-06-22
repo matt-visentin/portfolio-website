@@ -5,6 +5,8 @@ Secondary Text Color (White): #fff
 Primary Color (Aquamarine): #00694f;
 Secondary Color (Gray): #d3d3d3;
 Decoration Color (Coral): #f88379;
+Sewcond Decoration Color (Red): #FF0000
+
 */
 
 body {
@@ -207,12 +209,12 @@ a:focus,
 
 a:active {
     font-weight: bolder;
-    border-bottom: 1px solid #f88379;
+    border-bottom: 1px solid #FF0000;
 }
 
 .navigation-list__item--active {
     font-weight: bolder;
-    border-bottom: 1px solid #f88379;
+    border-bottom: 1px solid #FF0000;
 }
 
 button {
@@ -223,7 +225,7 @@ button {
     color: #fff;
     font-family: inherit;
     font-size: 16px;
-    padding: 2%;
+    padding: 15px;
     transition: opacity 1s, font-weight 1s;
 }
 
@@ -235,7 +237,7 @@ button {
     color: #fff;
     font-family: inherit;
     font-size: 16px;
-    padding: 2%;
+    padding: 15px;
     transition: opacity 1s, font-weight 1s;
 }
 
@@ -247,7 +249,7 @@ button {
     color: #fff;
     font-family: inherit;
     font-size: 16px;
-    padding: 2%;
+    padding: 15px;
     transition: opacity 1s, font-weight 1s;
 }
 
@@ -299,7 +301,7 @@ button:focus,
 
 /* CONTACT FORM */
 
-.contact-form {
+.input-wrapper {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -320,6 +322,11 @@ textarea {
     height: 100px;
 }
 
+.error-message {
+    padding: 5px;
+    color: #FF0000;
+    color: #ff0000
+}
 .page-footer {
     position: fixed;
     background-color: #fff;
