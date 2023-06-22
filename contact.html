@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.production.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Contact Matteo Visentin</title>
 </head>
 
@@ -43,13 +43,21 @@
             <a href="tel:+4915730364870">Tel: +49(0)15730364870</a></p>
         <br>
         <form action="#" method="post" id="contact-form" class="contact-form">
-            <label class="standard-lable" for="contact-name">Your Name*</label>
-            <input type="text" id="contact-name" placeholder="Full Name" required>
-            <label class="standard-lable" for="contact-email">E-mail*</label>
-            <input type="email" id="contact-email" placeholder="name@example.com" required>
-            <label class="standard-lable" for="contact-message">Message:</label>
-            <textarea id="contact-message" placeholder="Your message" required></textarea>
+            <div class="input-wrapper">
+                <label class="standard-lable" for="contact-name">Your Name*</label>
+                <input type="text" id="contact-name" placeholder="Full Name" required>
+            </div>
+            <div class="input-wrapper">
+                <label class="standard-lable" for="contact-email">E-mail*</label>
+                <input type="email" id="contact-email" placeholder="name@example.com" required>
+            </div>
+            <div class="input-wrapper">
+                <label class="standard-lable" for="contact-message">Message:</label>
+                <textarea id="contact-message" placeholder="Your message" required></textarea>
+            </div>
+            
             <input type="submit" value="Send message" class="submit-button" id="button-submit-message">
+
         </form>
     </main>
     <footer class="page-footer">
@@ -63,6 +71,7 @@
                     src="./img/icon-in.svg" alt="Linkedin"></a>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
     <script src="./js/tota11y.min.js"></script>
 </body>
 
